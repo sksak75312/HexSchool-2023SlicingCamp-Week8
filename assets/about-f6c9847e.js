@@ -1,0 +1,1 @@
+import{S as e}from"./bootstrap.min-28afa8e4.js";new e(".intro-swiper",{autoplay:{delay:1500},slidesPerView:1,spaceBetween:40,breakpoints:{576:{slidesPerView:2,slidesPerGroup:2},768:{slidesPerView:3,slidesPerGroup:3}}});

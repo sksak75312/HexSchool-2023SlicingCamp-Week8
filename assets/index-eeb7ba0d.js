@@ -1,0 +1,1 @@
+import{S as e}from"./bootstrap.min-28afa8e4.js";new e(".carousel-swiper",{loop:!0,autoplay:{delay:1500},breakpoints:{768:{autoplay:{enabled:!0}}},navigation:{prevEl:".swiper-button-prev",nextEl:".swiper-button-next"}});new e(".share-swiper",{enabled:!1,scrollbar:{el:".swiper-scrollbar"},breakpoints:{768:{enabled:!0,slidesPerView:2},1200:{enabled:!0,slidesPerView:3}}});
