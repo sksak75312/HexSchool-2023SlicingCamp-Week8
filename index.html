@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>第八週</title>
+    <title>AI虛擬陪伴-首頁</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&family=Material+Icons"
       rel="stylesheet">
-    <script type="module" crossorigin src="/HexSchool-2023SlicingCamp-Week8/assets/index-ac73e4dc.js"></script>
-    <link rel="stylesheet" href="/HexSchool-2023SlicingCamp-Week8/assets/index-7e7f96b0.css">
+    <script type="module" crossorigin src="/HexSchool-2023SlicingCamp-Week8/assets/index-64f04cbb.js"></script>
+    <link rel="modulepreload" crossorigin href="/HexSchool-2023SlicingCamp-Week8/assets/bootstrap.min-74891ec4.js">
+    <link rel="stylesheet" href="/HexSchool-2023SlicingCamp-Week8/assets/bootstrap-fc4c277c.css">
   </head>
   <body>
-    <header class="sticky-top z-4">
+    <!-- header 區塊 -->
+<header class="sticky-top z-4">
   <nav class="navbar navbar-expand-lg py-4 py-md-5 bg-primary">
     <div class="container">
       <a class="navbar-brand link-light link-opacity-25-hover me-0 py-0 fs-9 fs-md-7 font-shrikhand" href="../pages/index.html">ALPHABOX+</a>
@@ -20,13 +22,13 @@
           menu
         </span>
       </button>
-      <div class="linear-purple-mob collapse navbar-collapse position-absolute position-lg-static start-0 end-0 top-100 justify-content-between align-items-center border-top border-white border-lg-0" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse position-absolute position-lg-static start-0 end-0 top-100 justify-content-between align-items-center border-top border-white border-lg-0 bg-gradient bg-lg-none" id="navbarSupportedContent">
         <ul class="navbar-nav flex-grow-1 justify-content-lg-center align-items-center gap-1 gap-lg-11 mb-0 pt-8 p-lg-0">
           <li class="nav-item">
             <a class="nav-link px-0 fw-medium link-light link-opacity-25-hover" aria-current="page" href="#">產品</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-0 fw-medium link-light link-opacity-25-hover" href="#">關於我們</a>
+            <a class="nav-link px-0 fw-medium link-light link-opacity-25-hover" href="./about.html">關於我們</a>
           </li>
           <li class="nav-item">
             <a class="nav-link px-0 fw-medium link-light link-opacity-25-hover" href="#">最新消息</a>
@@ -58,15 +60,73 @@
     </div>
   </nav>
 </header>
+    <!-- 首頁內容 -->
     <main>
 
-      <section class="banner linear-purple container-fluid pt-8 pt-lg-15 px-lg-19 border-top border-white">
-        <div class="row flex-column-reverse flex-md-row gy-9 gx-lg-9 position-xl-relative mb-0">
+      <!-- banner 區塊 -->
+      <section class="container-fluid pt-8 pt-lg-15 px-lg-19 border-top border-white bg-center bg-no-repeat bg-cover" style="background-image: url('/HexSchool-2023SlicingCamp-Week8/assets/home_background-8e027078.png');">
+        <div class="row gy-9">
+          <div class="col-lg-3 order-3 order-lg-1 align-self-lg-end d-none d-md-block text-end text-lg-start">
+            <a href="#" class="link-light link-opacity-25-hover d-block align-self-end mb-0 pb-2 border-bottom fw-bold">最新消息！新版本 v15.4 釋出，搶先體驗！</a>
+          </div>
+          <div class="col-lg-6 order-1 text-center">
+            <img src="/HexSchool-2023SlicingCamp-Week8/assets/circle-10d6fa5f.png" class="animation-rotate360 img-fluid" style="width: 196px; height: 196px;" alt="alphabox+360度旋轉動畫圖片">
+          </div>
+          <div class="col-lg-3 order-0 order-lg-3 d-flex flex-column justify-content-between">
+            <p class="mb-0 pt-2 fw-bold ls-1 border-top border-white" style="margin-top: -4px;">ALPHABOX+ STUDIO</p>
+            <p class="d-none d-lg-block mb-0" style="color: #AD93CF;">Copyright © 2023 Hexschool.</p>
+          </div>
+        </div>
+        <div class="position-relative top-32px top-md-56px">
+          <h1 class="position-xl-absolute top-xl-0 start-xl-50 translate-middle-xl-x mb-9 mb-lg-0 fs-10 fs-xxl-7 font-shrikhand text-center">
+            <span class="ls-4 ls-xxl-5">ALPHABOX</span> + <br> 
+            <span class="fs-11 fw-bold ls-2 ls-xxl-3 font-notoSans">擁抱未來科技，專屬您的3D立體投影陪伴機器人</span>
+          </h1>
+          <ul class="d-flex flex-column flex-md-row flex-wrap flex-lg-nowrap justify-content-center gap-5 gap-xl-8 mb-0 list-unstyled">
+            <li class="align-self-center">
+              <a href="#" class="card-shadow-hover d-block position-relative text-white">
+                <picture>
+                  <source media="(min-width: 992px)" srcset="/HexSchool-2023SlicingCamp-Week8/assets/diane-2a2ea242.png ">
+                  <img src="/HexSchool-2023SlicingCamp-Week8/assets/diane_mobile-dfabac47.png" class="img-fluid" alt="">
+                </picture>
+                <h2 class="position-absolute top-0 start-50 translate-middle-x font-shrikhand pt-5">Diane</h2>
+              </a>
+            </li>
+            <li class="align-self-center align-self-lg-end">
+              <a href="#" class="card-shadow-hover d-block position-relative text-white">
+                <picture>
+                  <source media="(min-width: 992px)" srcset="/HexSchool-2023SlicingCamp-Week8/assets/felix-edc6ba69.png "> 
+                  <img src="/HexSchool-2023SlicingCamp-Week8/assets/felix_mobile-cc4a7eae.png" class="img-fluid" alt="">
+                </picture>
+                <h2 class="position-absolute top-0 start-50 translate-middle-x font-shrikhand pt-5">Felix</h2>
+              </a>
+            </li>
+            <li class="align-self-center align-self-lg-end">
+              <a href="#" class="card-shadow-hover d-block position-relative text-white">
+                <picture>
+                  <source media="(min-width: 992px)" srcset="/HexSchool-2023SlicingCamp-Week8/assets/karina-925992ef.png "> 
+                  <img src="/HexSchool-2023SlicingCamp-Week8/assets/karina_mobile-cad93d77.png" class="img-fluid" alt="">
+                </picture>
+                <h2 class="position-absolute top-0 start-50 translate-middle-x font-shrikhand pt-5">Karina</h2>
+              </a>
+            </li>
+            <li class="align-self-center">
+              <a href="#" class="card-shadow-hover d-block position-relative text-white">
+                <picture>
+                  <source media="(min-width: 992px)" srcset="/HexSchool-2023SlicingCamp-Week8/assets/vito-f02791d7.png "> 
+                  <img src="/HexSchool-2023SlicingCamp-Week8/assets/vito_mobile-d101dc7e.png" class="img-fluid" alt="">
+                </picture>
+                <h2 class="position-absolute top-0 start-50 translate-middle-x font-shrikhand pt-5">Vito</h2>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="row flex-column-reverse flex-md-row gy-9 gx-lg-9 position-xl-relative mb-0">
           <div class="col-md-3 align-self-end d-none d-md-block">
-            <p class="align-self-end mb-0 pb-2 border-bottom fw-bold">最新消息！新版本 v15.4 釋出，搶先體驗！</p>
+            <a href="#" class="link-light link-opacity-25-hover d-block align-self-end mb-0 pb-2 border-bottom fw-bold">最新消息！新版本 v15.4 釋出，搶先體驗！</a>
           </div>
           <div class="col-md-6 text-center">
-            <img src="/HexSchool-2023SlicingCamp-Week8/assets/circle-10d6fa5f.png" class="animation-rotate360 img-fluid mb-9 mb-xl-0" style="width: 196px; height: 196px;" alt="">
+            <img src="../assets/images/circle.png" class="animation-rotate360 img-fluid mb-9 mb-xl-0" style="width: 196px; height: 196px;" alt="alphabox+360度旋轉動畫圖片">
             <h1 class="banner__title position-xl-absolute mb-0 fs-10 fs-xl-7 font-shrikhand">
               <span class="ls-4">ALPHABOX</span> + <br>
               <span class="fs-11 fw-bold ls-2 ls-xxl-3 font-notoSans">擁抱未來科技，專屬您的3D立體投影陪伴機器人</span>
@@ -77,50 +137,52 @@
             <p class="d-none d-md-block mb-0" style="color: #AD93CF;">Copyright © 2023 Hexschool.</p>
           </div>
         </div>
-        <ul class="banner__robot position-relative z-3 d-flex flex-column flex-md-row flex-wrap flex-lg-nowrap justify-content-center gap-5 gap-xl-9 mb-0 list-unstyled">
+
+
+        <ul class="d-flex flex-column flex-md-row flex-wrap flex-lg-nowrap justify-content-center gap-5 gap-xl-9 mb-0 list-unstyled">
           <li class="align-self-center">
-            <a href="#" class="robot__hover d-block position-relative text-white">
+            <a href="#" class="card-shadow-hover d-block position-relative text-white">
               <picture>
-                <source media="(min-width: 992px)" srcset="/HexSchool-2023SlicingCamp-Week8/assets/diane-2a2ea242.png ">
-                <img src="/HexSchool-2023SlicingCamp-Week8/assets/diane_mobile-dfabac47.png" class="img-fluid" alt="响应式图片">
+                <source media="(min-width: 992px)" srcset="../assets/images/diane.png">
+                <img src="../assets/images/diane_mobile.png" class="img-fluid" alt="">
               </picture>
               <h2 class="position-absolute top-0 start-50 translate-middle-x font-shrikhand pt-5">Diane</h2>
             </a>
           </li>
           <li class="align-self-center align-self-lg-end">
-            <a href="#" class="robot__hover d-block position-relative text-white">
+            <a href="#" class="card-shadow-hover d-block position-relative text-white">
               <picture>
-                <source media="(min-width: 992px)" srcset="/HexSchool-2023SlicingCamp-Week8/assets/felix-edc6ba69.png "> 
-                <img src="/HexSchool-2023SlicingCamp-Week8/assets/felix_mobile-cc4a7eae.png" class="img-fluid" alt="响应式图片">
+                <source media="(min-width: 992px)" srcset="../assets/images/felix.png"> 
+                <img src="../assets/images/felix_mobile.png" class="img-fluid" alt="">
               </picture>
               <h2 class="position-absolute top-0 start-50 translate-middle-x font-shrikhand pt-5">Felix</h2>
             </a>
           </li>
           <li class="align-self-center align-self-lg-end">
-            <a href="#" class="robot__hover d-block position-relative text-white">
+            <a href="#" class="card-shadow-hover d-block position-relative text-white">
               <picture>
-                <source media="(min-width: 992px)" srcset="/HexSchool-2023SlicingCamp-Week8/assets/karina-925992ef.png "> 
-                <img src="/HexSchool-2023SlicingCamp-Week8/assets/karina_mobile-cad93d77.png" class="img-fluid" alt="响应式图片">
+                <source media="(min-width: 992px)" srcset="../assets/images/karina.png"> 
+                <img src="../assets/images/karina_mobile.png" class="img-fluid" alt="">
               </picture>
               <h2 class="position-absolute top-0 start-50 translate-middle-x font-shrikhand pt-5">Karina</h2>
             </a>
           </li>
           <li class="align-self-center">
-            <a href="#" class="robot__hover d-block position-relative text-white">
+            <a href="#" class="card-shadow-hover d-block position-relative text-white">
               <picture>
-                <source media="(min-width: 992px)" srcset="/HexSchool-2023SlicingCamp-Week8/assets/vito-f02791d7.png "> 
-                <img src="/HexSchool-2023SlicingCamp-Week8/assets/vito_mobile-d101dc7e.png" class="img-fluid" alt="响应式图片">
+                <source media="(min-width: 992px)" srcset="../assets/images/vito.png"> 
+                <img src="../assets/images/vito_mobile.png" class="img-fluid" alt="">
               </picture>
               <h2 class="position-absolute top-0 start-50 translate-middle-x font-shrikhand pt-5">Vito</h2>
             </a>
           </li>
-        </ul>
+        </ul> -->
       </section>
 
-
-      <section class="about position-relative z-0" style="background-image: radial-gradient(50% 50% at 50% 50%, #300871 0%, #000 100%);">
-        <img src="/HexSchool-2023SlicingCamp-Week8/assets/carousel_background-b2ebf2b7.png" class="about__bg img-fluid position-absolute z-n1 object-fit-cover" style="filter: brightness(60%) blur(4px);" alt="">
-        <div class="container-fluid pt-23 pt-md-20 pt-xl-23 px-lg-19">
+      <!-- about 區塊 -->
+      <section class="position-relative z-n1 bg-inRadial">
+        <img src="/HexSchool-2023SlicingCamp-Week8/assets/carousel_background-b2ebf2b7.png" class="img-fluid position-absolute h-791px h-xl-auto z-n1 object-fit-cover" style="filter: brightness(60%) blur(4px);" alt="關於區塊的背景圖片">
+        <div class="container-fluid px-lg-19 pt-17 pt-md-20">
           <div class="mb-5" style="height: 40px; background: linear-gradient(90deg, #7000FF 1.22%, #11002D 116.05%);"></div>
           <h2 class="mb-7 mb-lg-4 fs-9 fs-md-7 fs-lg-5 fw-bold ls-3"> <span class="mb-2">什麼是</span> <br> ALPHABOX+</h2>
         </div>
@@ -129,14 +191,14 @@
           <div class="row align-items-center justify-content-between g-0">
             <div class="col-1 d-none d-md-block">
               <div class="swiper-button-prev" style="cursor: pointer;">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAwCAYAAAC47FD8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFDSURBVHgB7drNTcNAEAbQNRWkhLRABVACHUAH0AHpIFABogJKiKiAEpwOKGFYK5Hyb4tDJI/1njQXR4ovo0+e2S0FAAAAAAAAAK4iIp5qzQtMQdfMtdpajwWmoDbzMjZ+pDXp1Sae1fqNnUWBzGoTv8ShVlqT2raJjy01NinVxr2P81pDIynVxl3FZR/SmlS2a7w+rbQmldit8fpY8ZFDnK7x+iwKjF2crvGGPkPmff/XnHlBFBi3t1rvTdOsj3/Q0GS1rrWoTf25//CmQF7r4wcamoy6T47bms7fBcYkNvek/zMU3hUYo9jdkR7SrfZeC4xZbI64h6zCwQpjF8NH310qPxfIYCCdv6QyacTlQbANQx/ZxOUL/rMCmZxJZ6lMTnG4prOKI7e9QXBl6CO1bTpbxTENtZEfpDIAAAAAAABwHX8CWbdI8KKPogAAAABJRU5ErkJggg==" alt="" class="img-fluid rotate180">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAwCAYAAAC47FD8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFDSURBVHgB7drNTcNAEAbQNRWkhLRABVACHUAH0AHpIFABogJKiKiAEpwOKGFYK5Hyb4tDJI/1njQXR4ovo0+e2S0FAAAAAAAAAK4iIp5qzQtMQdfMtdpajwWmoDbzMjZ+pDXp1Sae1fqNnUWBzGoTv8ShVlqT2raJjy01NinVxr2P81pDIynVxl3FZR/SmlS2a7w+rbQmldit8fpY8ZFDnK7x+iwKjF2crvGGPkPmff/XnHlBFBi3t1rvTdOsj3/Q0GS1rrWoTf25//CmQF7r4wcamoy6T47bms7fBcYkNvek/zMU3hUYo9jdkR7SrfZeC4xZbI64h6zCwQpjF8NH310qPxfIYCCdv6QyacTlQbANQx/ZxOUL/rMCmZxJZ6lMTnG4prOKI7e9QXBl6CO1bTpbxTENtZEfpDIAAAAAAABwHX8CWbdI8KKPogAAAABJRU5ErkJggg==" alt="白色箭頭用來操作 swiper 動畫" class="img-fluid rotate180">
               </div>
             </div>
             <div class="col-md-9 mt-3">
               <div class="swiper carousel-swiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <div class="about__carousel d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center" style="background: url('/HexSchool-2023SlicingCamp-Week8/assets/carousel-3a475f44.png') no-repeat center/cover;">
+                    <div class="d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center h-351px h-xl-560px bg-no-repeat bg-center bg-cover" style="background: url('/HexSchool-2023SlicingCamp-Week8/assets/carousel-3a475f44.png');">
                       <div class="p-5 p-lg-11">
                         <h3 class="text-md-end mb-3">
                           <span class="fs-4 fs-lg-3 font-shrikhand">01</span><br>
@@ -147,7 +209,7 @@
                     </div>
                   </div>
                   <div class="swiper-slide">
-                    <div class="about__carousel d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center" style="background: url('/HexSchool-2023SlicingCamp-Week8/assets/carousel-3a475f44.png') no-repeat center/cover;">
+                    <div class="d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center h-351px h-xl-560px bg-no-repeat bg-center bg-cover" style="background: url('/HexSchool-2023SlicingCamp-Week8/assets/carousel-3a475f44.png');">
                       <div class="p-5 p-lg-11">
                         <h3 class="text-md-end mb-3">
                           <span class="fs-4 fs-lg-3 font-shrikhand">02</span><br>
@@ -158,7 +220,7 @@
                     </div>
                   </div>
                   <div class="swiper-slide">
-                    <div class="about__carousel d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center" style="background: url('/HexSchool-2023SlicingCamp-Week8/assets/carousel-3a475f44.png') no-repeat center/cover;">
+                    <div class="d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center h-351px h-xl-560px bg-no-repeat bg-center bg-cover" style="background: url('/HexSchool-2023SlicingCamp-Week8/assets/carousel-3a475f44.png');">
                       <div class="p-5 p-lg-11">
                         <h3 class="text-md-end mb-3">
                           <span class="fs-4 fs-lg-3 font-shrikhand">03</span><br>
@@ -173,7 +235,7 @@
             </div>
             <div class="col-1 d-none d-md-block">
               <div class="swiper-button-next" style="cursor: pointer;">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAwCAYAAAC47FD8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFDSURBVHgB7drNTcNAEAbQNRWkhLRABVACHUAH0AHpIFABogJKiKiAEpwOKGFYK5Hyb4tDJI/1njQXR4ovo0+e2S0FAAAAAAAAAK4iIp5qzQtMQdfMtdpajwWmoDbzMjZ+pDXp1Sae1fqNnUWBzGoTv8ShVlqT2raJjy01NinVxr2P81pDIynVxl3FZR/SmlS2a7w+rbQmldit8fpY8ZFDnK7x+iwKjF2crvGGPkPmff/XnHlBFBi3t1rvTdOsj3/Q0GS1rrWoTf25//CmQF7r4wcamoy6T47bms7fBcYkNvek/zMU3hUYo9jdkR7SrfZeC4xZbI64h6zCwQpjF8NH310qPxfIYCCdv6QyacTlQbANQx/ZxOUL/rMCmZxJZ6lMTnG4prOKI7e9QXBl6CO1bTpbxTENtZEfpDIAAAAAAABwHX8CWbdI8KKPogAAAABJRU5ErkJggg==" alt="right arrow" class="img-fluid">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAwCAYAAAC47FD8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFDSURBVHgB7drNTcNAEAbQNRWkhLRABVACHUAH0AHpIFABogJKiKiAEpwOKGFYK5Hyb4tDJI/1njQXR4ovo0+e2S0FAAAAAAAAAK4iIp5qzQtMQdfMtdpajwWmoDbzMjZ+pDXp1Sae1fqNnUWBzGoTv8ShVlqT2raJjy01NinVxr2P81pDIynVxl3FZR/SmlS2a7w+rbQmldit8fpY8ZFDnK7x+iwKjF2crvGGPkPmff/XnHlBFBi3t1rvTdOsj3/Q0GS1rrWoTf25//CmQF7r4wcamoy6T47bms7fBcYkNvek/zMU3hUYo9jdkR7SrfZeC4xZbI64h6zCwQpjF8NH310qPxfIYCCdv6QyacTlQbANQx/ZxOUL/rMCmZxJZ6lMTnG4prOKI7e9QXBl6CO1bTpbxTENtZEfpDIAAAAAAABwHX8CWbdI8KKPogAAAABJRU5ErkJggg==" alt="白色箭頭用來操作 swiper 動畫" class="img-fluid">
               </div>
             </div>
           </div>
@@ -181,7 +243,8 @@
         </div>  
       </section>
 
-      <section class="bg-gradient">
+      <!-- news 區塊 -->
+      <section class="bg-inRadial">
         <div class="container pt-16 pt-lg-24 pb-lg-11 pb-19">
           <h3 class="pb-9 pb-lg-11 mb-0 fs-6 fs-lg-5 fw-bold border-bottom text-center text-lg-start"><span class="ls-3">最新消</span>息</h3>
           <ul class="row g-lg-0 mb-11 mb-lg-18 list-unstyled">
@@ -198,14 +261,14 @@
                   <div class="d-flex flex-column flex-lg-row justify-content-between">
                     <p class="card-text col-lg-9 mb-4 mb-lg-0 fw-bold">榮幸地宣布，ALPHABOX+ 已成功完成最新一代的升級！本次升級包括提升投影解析度、優化語音辨識技術，以及擴充情感識別功能。 歡迎您了解本次升級帶來的更為卓越的性能！</p>
                     <a href="#" class="stretched-link btn p-0 me-auto me-lg-0 ms-lg-auto">
-                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAwCAYAAAC47FD8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFDSURBVHgB7drNTcNAEAbQNRWkhLRABVACHUAH0AHpIFABogJKiKiAEpwOKGFYK5Hyb4tDJI/1njQXR4ovo0+e2S0FAAAAAAAAAK4iIp5qzQtMQdfMtdpajwWmoDbzMjZ+pDXp1Sae1fqNnUWBzGoTv8ShVlqT2raJjy01NinVxr2P81pDIynVxl3FZR/SmlS2a7w+rbQmldit8fpY8ZFDnK7x+iwKjF2crvGGPkPmff/XnHlBFBi3t1rvTdOsj3/Q0GS1rrWoTf25//CmQF7r4wcamoy6T47bms7fBcYkNvek/zMU3hUYo9jdkR7SrfZeC4xZbI64h6zCwQpjF8NH310qPxfIYCCdv6QyacTlQbANQx/ZxOUL/rMCmZxJZ6lMTnG4prOKI7e9QXBl6CO1bTpbxTENtZEfpDIAAAAAAABwHX8CWbdI8KKPogAAAABJRU5ErkJggg==" class="img-fluid object-fit-cover" style="width: 196px; height: 24px;" alt="">
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAwCAYAAAC47FD8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFDSURBVHgB7drNTcNAEAbQNRWkhLRABVACHUAH0AHpIFABogJKiKiAEpwOKGFYK5Hyb4tDJI/1njQXR4ovo0+e2S0FAAAAAAAAAK4iIp5qzQtMQdfMtdpajwWmoDbzMjZ+pDXp1Sae1fqNnUWBzGoTv8ShVlqT2raJjy01NinVxr2P81pDIynVxl3FZR/SmlS2a7w+rbQmldit8fpY8ZFDnK7x+iwKjF2crvGGPkPmff/XnHlBFBi3t1rvTdOsj3/Q0GS1rrWoTf25//CmQF7r4wcamoy6T47bms7fBcYkNvek/zMU3hUYo9jdkR7SrfZeC4xZbI64h6zCwQpjF8NH310qPxfIYCCdv6QyacTlQbANQx/ZxOUL/rMCmZxJZ6lMTnG4prOKI7e9QXBl6CO1bTpbxTENtZEfpDIAAAAAAABwHX8CWbdI8KKPogAAAABJRU5ErkJggg==" class="img-fluid object-fit-cover" style="width: 196px; height: 24px;" alt="白色向右鍵頭">
                     </a>
                   </div>
                 </div>
               </div>
             </li>
             <li class="col-lg-6">
-              <div class="card card-border-right border-bottom bg-transparent h-100" style="border-left: 0;">
+              <div class="card card-border-right border-bottom bg-transparent h-100 border-start-0">
                 <div class="card-body d-flex flex-column py-9 py-lg-11">
                   <p class="d-flex align-items-center gap-5 mb-2 fw-bold ls-3">
                     <span class="material-symbols-outlined">
@@ -216,13 +279,13 @@
                   <h4 class="card-title mb-4 fs-10 fw-bold ls-3">限時優惠活動</h4>
                   <p class="card-text flex-grow-1 mb-4 fw-bold">為答謝廣大用戶的支持，本月將舉辦一場限時優惠活動。訂閱 ALPHABOX+ 的顧客，皆可享受九折優惠。機會難得，請勿錯過此良機！</p>
                   <a href="#" class="stretched-link btn p-0 me-auto">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAwCAYAAAC47FD8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFDSURBVHgB7drNTcNAEAbQNRWkhLRABVACHUAH0AHpIFABogJKiKiAEpwOKGFYK5Hyb4tDJI/1njQXR4ovo0+e2S0FAAAAAAAAAK4iIp5qzQtMQdfMtdpajwWmoDbzMjZ+pDXp1Sae1fqNnUWBzGoTv8ShVlqT2raJjy01NinVxr2P81pDIynVxl3FZR/SmlS2a7w+rbQmldit8fpY8ZFDnK7x+iwKjF2crvGGPkPmff/XnHlBFBi3t1rvTdOsj3/Q0GS1rrWoTf25//CmQF7r4wcamoy6T47bms7fBcYkNvek/zMU3hUYo9jdkR7SrfZeC4xZbI64h6zCwQpjF8NH310qPxfIYCCdv6QyacTlQbANQx/ZxOUL/rMCmZxJZ6lMTnG4prOKI7e9QXBl6CO1bTpbxTENtZEfpDIAAAAAAABwHX8CWbdI8KKPogAAAABJRU5ErkJggg==" class="img-fluid object-fit-cover" style="width: 90px; height: 24px;" alt="">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAwCAYAAAC47FD8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFDSURBVHgB7drNTcNAEAbQNRWkhLRABVACHUAH0AHpIFABogJKiKiAEpwOKGFYK5Hyb4tDJI/1njQXR4ovo0+e2S0FAAAAAAAAAK4iIp5qzQtMQdfMtdpajwWmoDbzMjZ+pDXp1Sae1fqNnUWBzGoTv8ShVlqT2raJjy01NinVxr2P81pDIynVxl3FZR/SmlS2a7w+rbQmldit8fpY8ZFDnK7x+iwKjF2crvGGPkPmff/XnHlBFBi3t1rvTdOsj3/Q0GS1rrWoTf25//CmQF7r4wcamoy6T47bms7fBcYkNvek/zMU3hUYo9jdkR7SrfZeC4xZbI64h6zCwQpjF8NH310qPxfIYCCdv6QyacTlQbANQx/ZxOUL/rMCmZxJZ6lMTnG4prOKI7e9QXBl6CO1bTpbxTENtZEfpDIAAAAAAABwHX8CWbdI8KKPogAAAABJRU5ErkJggg==" class="img-fluid object-fit-cover" style="width: 90px; height: 24px;" alt="白色向右鍵頭">
                   </a>
                 </div>
               </div>
             </li>
             <li class="col-lg-6">
-              <div class="card border-bottom bg-transparent h-100" style="border-left: 0;">
+              <div class="card border-bottom border-start-0 border-end-0 bg-transparent h-100">
                 <div class="card-body d-flex flex-column py-9 py-lg-11">
                   <p class="d-flex align-items-center gap-5 mb-2 fw-bold ls-3">
                     <span class="material-symbols-outlined">
@@ -233,7 +296,7 @@
                   <h4 class="card-title mb-4 fs-10 fw-bold ls-3">新功能上線</h4>
                   <p class="card-text flex-grow-1 mb-4 fw-bold">為使您的 ALPHABOX+ 更趨完善，我們不懈地研發創新功能。近期，我們新推出智慧家居控制功能，使您的機器人能更便利地協助您操作家中各類智能設備。</p>
                   <a href="#" class="stretched-link btn p-0 me-auto">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAwCAYAAAC47FD8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFDSURBVHgB7drNTcNAEAbQNRWkhLRABVACHUAH0AHpIFABogJKiKiAEpwOKGFYK5Hyb4tDJI/1njQXR4ovo0+e2S0FAAAAAAAAAK4iIp5qzQtMQdfMtdpajwWmoDbzMjZ+pDXp1Sae1fqNnUWBzGoTv8ShVlqT2raJjy01NinVxr2P81pDIynVxl3FZR/SmlS2a7w+rbQmldit8fpY8ZFDnK7x+iwKjF2crvGGPkPmff/XnHlBFBi3t1rvTdOsj3/Q0GS1rrWoTf25//CmQF7r4wcamoy6T47bms7fBcYkNvek/zMU3hUYo9jdkR7SrfZeC4xZbI64h6zCwQpjF8NH310qPxfIYCCdv6QyacTlQbANQx/ZxOUL/rMCmZxJZ6lMTnG4prOKI7e9QXBl6CO1bTpbxTENtZEfpDIAAAAAAABwHX8CWbdI8KKPogAAAABJRU5ErkJggg==" class="img-fluid object-fit-cover" style="width: 90px; height: 24px;" alt="">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAwCAYAAAC47FD8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFDSURBVHgB7drNTcNAEAbQNRWkhLRABVACHUAH0AHpIFABogJKiKiAEpwOKGFYK5Hyb4tDJI/1njQXR4ovo0+e2S0FAAAAAAAAAK4iIp5qzQtMQdfMtdpajwWmoDbzMjZ+pDXp1Sae1fqNnUWBzGoTv8ShVlqT2raJjy01NinVxr2P81pDIynVxl3FZR/SmlS2a7w+rbQmldit8fpY8ZFDnK7x+iwKjF2crvGGPkPmff/XnHlBFBi3t1rvTdOsj3/Q0GS1rrWoTf25//CmQF7r4wcamoy6T47bms7fBcYkNvek/zMU3hUYo9jdkR7SrfZeC4xZbI64h6zCwQpjF8NH310qPxfIYCCdv6QyacTlQbANQx/ZxOUL/rMCmZxJZ6lMTnG4prOKI7e9QXBl6CO1bTpbxTENtZEfpDIAAAAAAABwHX8CWbdI8KKPogAAAABJRU5ErkJggg==" class="img-fluid object-fit-cover" style="width: 90px; height: 24px;" alt="白色向右鍵頭">
                   </a>
                 </div>
               </div>
@@ -241,7 +304,7 @@
           </ul>
           <div class="mb-md-20 text-center">
             <a href="#" class="btn position-relative">
-              <img src="data:image/png;base64,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" class="animation-rotate360 img-fluid" alt="">
+              <img src="data:image/png;base64,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" class="animation-rotate360 img-fluid" alt="alphabox+文字圓形圖片，用於製作360度旋轉動畫">
               <p class="position-absolute top-50 start-50 translate-middle fw-bold">查看更多</p>
             </a>
           </div>
@@ -249,7 +312,8 @@
         </div>
       </section>
 
-      <section class="position-relative overflow-hidden" style="background:radial-gradient(50% 50% at 50% 50%, #000 0%, #28085C 100%);">
+      <!-- share 區塊 -->
+      <section class="position-relative overflow-hidden bg-outRadial">
         <div class="container pt-16 pt-lg-24 pb-19 pb-lg-11">
           <div class="row gy-md-5">
             <div class="col-lg-6 col-xl-5 mb-5 mb-md-0">
@@ -266,10 +330,10 @@
             emergency
           </span>
 
-          <div class="swiper share-swiper">
-            <div class="swiper-wrapper" style="cursor: pointer;">
+          <div class="swiper share-swiper overflow-initial">
+            <div class="swiper-wrapper flex-column flex-md-row column-gap-8" style="cursor: pointer;">
               <div class="swiper-slide">
-                <div class="card share__card p-8 p-lg-11 bg-tertiary">
+                <div class="card p-8 p-lg-11 min-h-351px min-h-xl-416px bg-tertiary">
                   <div class="d-flex align-items-center gap-2 mb-9">
                     <h4 class="mb-0 fs-11 fw-bold">Zona</h4>
                     <span class="material-icons" style="font-size: 8px;">
@@ -290,7 +354,7 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="card share__card p-8 p-lg-11 text-black">
+                <div class="card p-8 p-lg-11 min-h-351px min-h-xl-416px text-black">
                   <div class="d-flex align-items-center gap-2 mb-9">
                     <h4 class="mb-0 fs-11 fw-bold">Lin</h4>
                     <span class="material-icons" style="font-size: 8px;">
@@ -311,7 +375,7 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="card share__card p-8 p-lg-11 bg-tertiary">
+                <div class="card p-8 p-lg-11 min-h-351px min-h-xl-416px bg-tertiary">
                   <div class="d-flex align-items-center gap-2 mb-9">
                     <h4 class="mb-0 fs-11 fw-bold">云</h4>
                     <span class="material-icons" style="font-size: 8px;">
@@ -332,7 +396,7 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="card share__card p-8 p-lg-11 text-black">
+                <div class="card p-8 p-lg-11 min-h-351px min-h-xl-416px text-black">
                   <div class="d-flex align-items-center gap-2 mb-9">
                     <h4 class="mb-0 fs-11 fw-bold">Zichi</h4>
                     <span class="material-icons" style="font-size: 8px;">
@@ -364,9 +428,10 @@
           </div>
           <p class="mb-0 fw-bold d-none d-md-block">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</p>
         </div>
-        <p class="share__bg position-absolute mb-0 fs-2 fs-md-1 fs-xl-400 font-shrikhand" style="color:rgba(255, 255, 255, 0.04); user-select: none;">ALPHABOX+</p>
+        <p class="position-absolute bottom-n3 bottom-md-n15 bottom-xl-n21 start-n10 start-md-n30 start-xl-n20 mb-0 fs-2 fs-md-1 fs-xl-400 font-shrikhand" style="color:rgba(255, 255, 255, 0.04); user-select: none;">ALPHABOX+</p>
       </section>
 
+      <!-- connect 區塊 -->
       <section class="bg-quaternary">
         <div class="container pt-16 pb-19 py-lg-144">
           <div class="row gy-8">
@@ -409,65 +474,66 @@
         </div>
       </section>
 
+      <!-- product 區塊 -->
       <section>
-        <ol class="d-flex mb-0 list-unstyled">
-          <li class="col-6 col-lg-3">
-            <a class="card product__card py-8 px-4 border-0">
-              <h3 class="d-flex flex-column align-items-center gap-5 mb-6 fs-9 font-shrikhand">
-                <span class="fs-2 fw-light font-sairaExtra">1</span>
+        <ol class="d-flex flex-wrap mb-0 list-unstyled">
+          <li class="col-6 col-md-3">
+            <a href="#" class="card card-border-right product__card py-8 px-4 px-lg-11 border-0 bg-center bg-cover bg-bm-darken bg-no-repeat h-100" style="background-image: url('/HexSchool-2023SlicingCamp-Week8/assets/diane_vertical-40c86c41.png');">
+              <h3 class="d-flex flex-column align-items-center gap-5 mb-6 mb-lg-19 fs-9 fs-sm-8 fs-lg-7 font-shrikhand">
+                <span class="fs-2 fs-sm-1 fs-lg-400 fw-light font-sairaExtra">1</span>
                 Diane
               </h3>
-              <div>
-                <h4 class="mb-0 fs-11 fw-bold">
-                  生活型
-                </h4>
-                <p>健康提醒/日程安排/智能家居</p>
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAYCAYAAADtRY/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACzSURBVHgB7dhBDcJAEIXhtyioBJxgAQfgABxQB5VAUIIEJLQOkDDMhk0oe+ih3bn9X/IOPfT28pqOBAAAAADAFmZ29uwFRMtF84yek4BoXrTBvl6sHEJ5wTrP2356AVG8YFf7N7JyCFMKVhvq0qXZCyagrcnTp5Qe+WEnINYkoJWFz2gnoJVy3K1/EA4CWpoddq2cQG4CIni57qVoT84dCFNWLa/ZRUAkL9mRNQMAAACw2gewFMvc4ABQIwAAAABJRU5ErkJggg==" class="img-fluid" alt="">
+              <h4 class="mb-0 fs-11 fw-bold">
+                知識型
+              </h4>
+              <div class="d-xl-flex justify-content-between">
+                <p class="mb-0">學術領導/知識分享/智能問答</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAYCAYAAADtRY/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACzSURBVHgB7dhBDcJAEIXhtyioBJxgAQfgABxQB5VAUIIEJLQOkDDMhk0oe+ih3bn9X/IOPfT28pqOBAAAAADAFmZ29uwFRMtF84yek4BoXrTBvl6sHEJ5wTrP2356AVG8YFf7N7JyCFMKVhvq0qXZCyagrcnTp5Qe+WEnINYkoJWFz2gnoJVy3K1/EA4CWpoddq2cQG4CIni57qVoT84dCFNWLa/ZRUAkL9mRNQMAAACw2gewFMvc4ABQIwAAAABJRU5ErkJggg==" class="img-fluid align-self-center" alt="白色向右鍵頭">
               </div>
             </a>
           </li>
-          <li class="col-6 col-lg-3">
-            <a class="card product__card py-8 px-4 border-0">
-              <h3 class="d-flex flex-column align-items-center gap-5 mb-6 fs-9 font-shrikhand">
-                <span class="fs-2 fw-light font-sairaExtra">1</span>
-                Diane
+          <li class="col-6 col-md-3">
+            <a href="#" class="card card-border-right product__card py-8 px-4 px-lg-11 border-0 bg-center bg-cover bg-bm-darken bg-no-repeat h-100" style="background-image: url('/HexSchool-2023SlicingCamp-Week8/assets/felix_vertical-90896552.png');">
+              <h3 class="d-flex flex-column align-items-center gap-5 mb-6 mb-lg-19 fs-9 fs-sm-8 fs-lg-7 font-shrikhand">
+                <span class="fs-2 fs-sm-1 fs-lg-400 fw-light font-sairaExtra">2</span>
+                Felix
               </h3>
-              <div>
-                <h4 class="mb-0 fs-11 fw-bold">
-                  生活型
-                </h4>
-                <p>健康提醒/日程安排/智能家居</p>
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAYCAYAAADtRY/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACzSURBVHgB7dhBDcJAEIXhtyioBJxgAQfgABxQB5VAUIIEJLQOkDDMhk0oe+ih3bn9X/IOPfT28pqOBAAAAADAFmZ29uwFRMtF84yek4BoXrTBvl6sHEJ5wTrP2356AVG8YFf7N7JyCFMKVhvq0qXZCyagrcnTp5Qe+WEnINYkoJWFz2gnoJVy3K1/EA4CWpoddq2cQG4CIni57qVoT84dCFNWLa/ZRUAkL9mRNQMAAACw2gewFMvc4ABQIwAAAABJRU5ErkJggg==" class="img-fluid" alt="">
+              <h4 class="mb-0 fs-11 fw-bold">
+                娛樂型
+              </h4>
+              <div class="d-xl-flex justify-content-between">
+                <p class="mb-0">音樂播放/語音互動/遊戲陪伴</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAYCAYAAADtRY/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACzSURBVHgB7dhBDcJAEIXhtyioBJxgAQfgABxQB5VAUIIEJLQOkDDMhk0oe+ih3bn9X/IOPfT28pqOBAAAAADAFmZ29uwFRMtF84yek4BoXrTBvl6sHEJ5wTrP2356AVG8YFf7N7JyCFMKVhvq0qXZCyagrcnTp5Qe+WEnINYkoJWFz2gnoJVy3K1/EA4CWpoddq2cQG4CIni57qVoT84dCFNWLa/ZRUAkL9mRNQMAAACw2gewFMvc4ABQIwAAAABJRU5ErkJggg==" class="img-fluid align-self-center" alt="白色向右鍵頭">
               </div>
             </a>
           </li>
-          <li class="col-6 col-lg-3">
-            <a class="card product__card py-8 px-4 border-0">
-              <h3 class="d-flex flex-column align-items-center gap-5 mb-6 fs-9 font-shrikhand">
-                <span class="fs-2 fw-light font-sairaExtra">1</span>
-                Diane
+          <li class="col-6 col-md-3">
+            <a href="#" class="card card-border-right product__card py-8 px-4 px-lg-11 border-0 bg-center bg-cover bg-bm-darken bg-no-repeat h-100" style="background-image: url('/HexSchool-2023SlicingCamp-Week8/assets/karina_vertical-b1db6fd3.png');">
+              <h3 class="d-flex flex-column align-items-center gap-5 mb-6 mb-lg-19 fs-9 fs-sm-8 fs-lg-7 font-shrikhand">
+                <span class="fs-2 fs-sm-1 fs-lg-400 fw-light font-sairaExtra">3</span>
+                Karina
               </h3>
-              <div>
-                <h4 class="mb-0 fs-11 fw-bold">
-                  生活型
-                </h4>
-                <p>健康提醒/日程安排/智能家居</p>
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAYCAYAAADtRY/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACzSURBVHgB7dhBDcJAEIXhtyioBJxgAQfgABxQB5VAUIIEJLQOkDDMhk0oe+ih3bn9X/IOPfT28pqOBAAAAADAFmZ29uwFRMtF84yek4BoXrTBvl6sHEJ5wTrP2356AVG8YFf7N7JyCFMKVhvq0qXZCyagrcnTp5Qe+WEnINYkoJWFz2gnoJVy3K1/EA4CWpoddq2cQG4CIni57qVoT84dCFNWLa/ZRUAkL9mRNQMAAACw2gewFMvc4ABQIwAAAABJRU5ErkJggg==" class="img-fluid" alt="">
+              <h4 class="mb-0 fs-11 fw-bold">
+                生活型
+              </h4>
+              <div class="d-xl-flex justify-content-between">
+                <p class="mb-0">健康提醒/日程安排/智能家居</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAYCAYAAADtRY/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACzSURBVHgB7dhBDcJAEIXhtyioBJxgAQfgABxQB5VAUIIEJLQOkDDMhk0oe+ih3bn9X/IOPfT28pqOBAAAAADAFmZ29uwFRMtF84yek4BoXrTBvl6sHEJ5wTrP2356AVG8YFf7N7JyCFMKVhvq0qXZCyagrcnTp5Qe+WEnINYkoJWFz2gnoJVy3K1/EA4CWpoddq2cQG4CIni57qVoT84dCFNWLa/ZRUAkL9mRNQMAAACw2gewFMvc4ABQIwAAAABJRU5ErkJggg==" class="img-fluid align-self-center" alt="白色向右鍵頭">
               </div>
             </a>
           </li>
-          <li class="col-6 col-lg-3">
-            <a class="card product__card py-8 px-4 border-0">
-              <h3 class="d-flex flex-column align-items-center gap-5 mb-6 fs-9 font-shrikhand">
-                <span class="fs-2 fw-light font-sairaExtra">1</span>
-                Diane
+          <li class="col-6 col-md-3">
+            <a href="#" class="card product__card py-8 px-4 px-lg-11 border-0 bg-center bg-cover bg-bm-darken bg-no-repeat h-100" style="background-image: url('/HexSchool-2023SlicingCamp-Week8/assets/vito_vertical-4da28b69.png');">
+              <h3 class="d-flex flex-column align-items-center gap-5 mb-6 mb-lg-19 fs-9 fs-sm-8 fs-lg-7 font-shrikhand">
+                <span class="fs-2 fs-sm-1 fs-lg-400 fw-light font-sairaExtra">4</span>
+                Vito
               </h3>
-              <div>
-                <h4 class="mb-0 fs-11 fw-bold">
-                  生活型
-                </h4>
-                <p>健康提醒/日程安排/智能家居</p>
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAYCAYAAADtRY/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACzSURBVHgB7dhBDcJAEIXhtyioBJxgAQfgABxQB5VAUIIEJLQOkDDMhk0oe+ih3bn9X/IOPfT28pqOBAAAAADAFmZ29uwFRMtF84yek4BoXrTBvl6sHEJ5wTrP2356AVG8YFf7N7JyCFMKVhvq0qXZCyagrcnTp5Qe+WEnINYkoJWFz2gnoJVy3K1/EA4CWpoddq2cQG4CIni57qVoT84dCFNWLa/ZRUAkL9mRNQMAAACw2gewFMvc4ABQIwAAAABJRU5ErkJggg==" class="img-fluid" alt="">
+              <h4 class="mb-0 fs-11 fw-bold">
+                情感型
+              </h4>
+              <div class="d-xl-flex justify-content-between">
+                <p class="mb-0">情感識別/心情分析/心靈支持</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAYCAYAAADtRY/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACzSURBVHgB7dhBDcJAEIXhtyioBJxgAQfgABxQB5VAUIIEJLQOkDDMhk0oe+ih3bn9X/IOPfT28pqOBAAAAADAFmZ29uwFRMtF84yek4BoXrTBvl6sHEJ5wTrP2356AVG8YFf7N7JyCFMKVhvq0qXZCyagrcnTp5Qe+WEnINYkoJWFz2gnoJVy3K1/EA4CWpoddq2cQG4CIni57qVoT84dCFNWLa/ZRUAkL9mRNQMAAACw2gewFMvc4ABQIwAAAABJRU5ErkJggg==" class="img-fluid align-self-center" alt="白色向右鍵頭">
               </div>
             </a>
           </li>
@@ -476,7 +542,33 @@
 
     </main>
 
-        
+    <!-- footer 區塊 -->
+<footer class="container p-11 py-lg-13 px-md-0 text-black">
+  <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center gap-2">
+    <div>
+      <a href="#" class="fs-7 link-black link-opacity-25-hover font-shrikhand">ALPHABOX+</a>
+      <p class="d-none d-md-block mb-0 fw-bold ls-1 ">Copyright © 2023 Hexschool.</p>
+    </div>
+    <span class="material-symbols-outlined fs-80">
+      emergency
+    </span>
+    <ul class="d-flex flex-column flex-md-row gap-2 gap-lg-8 mb-0 list-unstyled">
+      <li>
+        <a href="#" class="link-black link-opacity-25-hover fw-bold">關於我們</a>
+      </li>
+      <li>
+        <a href="#" class="link-black link-opacity-25-hover fw-bold">產品資訊</a>
+      </li>
+      <li>
+        <a href="#" class="link-black link-opacity-25-hover fw-bold">常見問題</a>
+      </li>
+      <li>
+        <a href="#" class="link-black link-opacity-25-hover fw-bold">隱私政策</a>
+      </li>
+    </ul>
+    <p class="d-md-none mb-0 fw-bold ls-1">Copyright © 2023 Hexschool.</p>
+  </div>
+</footer>    
     
   </body>
 </html>
