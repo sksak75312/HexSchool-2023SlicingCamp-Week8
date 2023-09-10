@@ -1,0 +1,22 @@
+.material-icons, .material-symbols-outlined {
+  vertical-align: middle;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+.animation-rotate360 {
+  animation: rotate360 10s linear infinite;
+}
+
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+

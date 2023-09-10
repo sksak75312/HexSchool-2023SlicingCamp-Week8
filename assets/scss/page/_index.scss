@@ -1,0 +1,15 @@
+.product__card {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@include media-breakpoint-up(lg) {
+  .product__card {
+    background-color: #000000;
+    transition: all 1s;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+}
